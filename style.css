@@ -17,50 +17,50 @@
     right: 10%;
   }
 
-    .page-title {
+.page-title {
         padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 35px;
-        font-family: New Century Schoolbook, TeX Gyre Schola, serif;;
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif;
         font-style: bold;
         color: rgb(56, 236, 221);
         background: white
       }
 
-      .page-text {
+.page-text {
           background: white;
-          padding-left: 10px
+          padding-left: 10px;
+          padding-right: 10px;
+          font-family: New Century Schoolbook, TeX Gyre Schola, serif;
       }
-      .section {
+.section {
           background:white
       }
-      table {
+table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
       }
       
-      td, th {
+td, th {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
       }
       
-      tr:nth-child(even) {
+tr:nth-child(even) {
         background-color: #dddddd;
       }
 
-      h2 {
+.center {
         padding-top: 20px;
         font-size: 25px;
         font-family: New Century Schoolbook, TeX Gyre Schola, serif;;
         font-style: bold;
         color: rgb(56, 236, 221);
-        position: absolute;
-      }
-
-      .center {
         text-align: center;
-        display: inline-block;
+      }
+      .row {
+        justify-content: center
       }
