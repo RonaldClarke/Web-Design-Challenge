@@ -57,8 +57,10 @@
         font-family: New Century Schoolbook, TeX Gyre Schola, serif;;
         font-style: bold;
         color: rgb(56, 236, 221);
+        position: absolute;
       }
 
       .center {
-        text-align: center:
+        text-align: center;
+        display: inline-block;
       }
