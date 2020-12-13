@@ -64,3 +64,23 @@ tr:nth-child(even) {
       .row {
         justify-content: center
       }
+
+@media (max-width: 868px) { 
+  .navbar-expand-lg {
+    background-color: rgb(56, 236, 221);
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 10%;
+    
+}
+  .right-align {
+    position: absolute;
+    right: 10%;
+  }
+  .nav-item {
+    position: relative;
+    top: 30px;
+    font-style: bold;
+    background-color: white;
+}
